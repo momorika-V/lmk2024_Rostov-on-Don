@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(32, 43, 58);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.header {
+
+    background-color: rgb(32, 43, 58);
+
+    color: rgb(205, 223, 255);
+
+    A {
+        color: brgb(205, 223, 255);
+    }
+
+    A:visited {
+        color: rgb(196, 206, 223);
+        /* Цвет посещенных ссылок */
+    }
+
+    A:active {
+        color: rgb(205, 223, 255);
+        /* Цвет активных ссылок */
+    }
+}
+
+h2 {
+    text-align: center;
+    color: rgb(23, 34, 49);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+a {
+    color: rgb(203, 210, 219);
+    text-align: center;
+
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+hr {
+    border-color: rgb(30, 52, 82)
+}
+
+
+p {
+    color: rgb(23, 34, 49);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+
+
+.container {
+    width: 1500px;
+
+    margin: 0 auto;
+
+    background-color: rgb(32, 43, 58);
+
+    .content {
+        border-style: solid;
+        border-width: 16px;
+        border-radius: 15%;
+        background-color: rgb(219, 227, 238);
+        padding-left: 45px;
+        padding-right: 45px;
+
+        img {
+            border-radius: 10%;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+        }
+
+        p {
+            color: rgb(23, 34, 49)
+        }
+
+        color: rgb(44, 65, 95);
+
+        div {
+            border-bottom-left-radius: 35%;
+            border-bottom-right-radius: 35%;
+            padding-bottom: 30px;
+        }
+
+        a {
+            display: grid;
+            place-items: center;
+            height: 75px;
+        }
+
+
+    }
+}
+
+.footer {
+    width: 0, auto;
+
+    background-color: rgb(32, 43, 58);
+}
+
+.footer h4 {
+    color: #ccc;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 1px solid #666;
+    padding-bottom: 3px;
+}
+
+.footer a {
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.footer a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer a,
+.footer li {
+    color: #c8c8c8;
+}
+
+.footer li a {
+    display: block;
+}
+
+.footer-icons a {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
